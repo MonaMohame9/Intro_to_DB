@@ -8,7 +8,7 @@ USE alx_book_store;
 -- إنشاء جدول Authors
 CREATE TABLE IF NOT EXISTS Authors (
     author_id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(100) NOT NULL,
+    author_name VARCHAR(100) NOT NULL,
     bio TEXT,
     birth_date DATE
 );
