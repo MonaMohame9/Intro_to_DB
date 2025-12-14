@@ -28,11 +28,11 @@ CREATE TABLE IF NOT EXISTS Books (
 -- إنشاء جدول Customers
 CREATE TABLE IF NOT EXISTS Customers (
     customer_id INT AUTO_INCREMENT PRIMARY KEY,
-    first_name VARCHAR(50) NOT NULL,
+    customer_name VARCHAR(50) NOT NULL,
     last_name VARCHAR(50) NOT NULL,
-    email VARCHAR(100) UNIQUE NOT NULL,
+    email VARCHAR(215) UNIQUE NOT NULL,
     phone VARCHAR(20),
-    address VARCHAR(255)
+    address TEXT(255)
 );
 
 -- إنشاء جدول Orders
